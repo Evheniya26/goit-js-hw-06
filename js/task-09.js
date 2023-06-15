@@ -3,3 +3,7 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
+
+const widgetEl = document.querySelector(".widget");
+const spanColor = document.querySelector(".color");
+const colorChangeBtn = document.querySelector(".change-color");
